@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>8 урок - Псевдоклассы и псевдоэлементы</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__logo">
+			<a href="#"><img src="img/logo_desktop.png" alt=""></a>
+		</div>
+		<div class="header__nav">
+			<nav></nav>
+		</div>
+	</header>
+	<main>
+		<div class="block__hover">
+			<a href="#" class="button">Button Hover</a>
+			<a href="#" class="button__hidden button"><span>Button hidden</span></a>
+		</div>
+		<div class="block__activ">
+			<h2>Activ</h2>
+			<a href="#" class="button__active">Activ</a>
+
+		</div>
+		<div class="block__visited">
+			<h2>Visited</h2>
+			Lorem ipsum dolor, <a target="_blank" href="https://google.com" class="link">sit amet</a> consectetur
+			adipisicing elit. oluptas quidem exercitationem pariatur, quo possimus
+			esse dignissimos <a target="_blank" href="https://ukr.net" class="link">dolorum quod</a> consectetur cupiditate
+			nostrum
+			quae odio quos
+			perferendis commodi architecto
+			provident aut debitis.
+			Officia inventore <a target="_blank" href="https://github.com" class="link">magni at ut non</a> dolore
+			doloribus,
+			ducimus maxime atque
+			accusantium quisquam temporibus
+			recusandae rerum, omnis consectetur neque repudiandae fugiat libero? Sequi voluptatibus unde at excepturi
+			doloremque, quia laudantium.
+			Quae velit mollitia minus maiores! Dignissimos ullam, sint maxime est ab totam odio in earum deserunt, optio
+			quo maiores dolores quasi culpa omnis facere ad doloribus repellat consequatur aut ratione?
+		</div>
+		<div class="block__target">
+			<h2>Target</h2>
+			<a href="#text" id="open" class="open">Push me</a>
+			<div id="text" class="text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex facilis laboriosam
+				corrupti
+				atque quisquam saepe, modi veniam vel nostrum possimus vero omnis itaque cupiditate iste impedit recusandae
+				facere? At, debitis.
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, provident perferendis. Quasi, impedit
+				eligendi reprehenderit odit et officiis saepe error magnam delectus nesciunt id dicta, non similique
+				accusamus a odio.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex facilis laboriosam
+				corrupti
+				atque quisquam saepe, modi veniam vel nostrum possimus vero omnis itaque cupiditate iste impedit recusandae
+				facere? At, debitis.
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, provident perferendis. Quasi, impedit
+				eligendi reprehenderit odit et officiis saepe error magnam delectus nesciunt id dicta, non similique
+				accusamus a odio.
+				<p><a href="#open" class="close">Close me</a></p>
+			</div>
+			<h2>Text hover and activ </h2>
+			<div class="text1">
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ea alias explicabo fugiat excepturi iusto
+					aliquam quas sunt in officiis beatae, quia praesentium esse unde nihil minima aliquid adipisci dicta.
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni ratione reiciendis ab nostrum similique
+					repudiandae ipsa est dolorum sint distinctio praesentium aperiam incidunt soluta, placeat quasi, qui
+					fugiat
+					labore dolorem.</p>
+			</div>
+			<h2>:first-child, :first-of-type, :last-child, :nth-child()</h2>
+			<div class="text2">
+
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit quam placeat minus repellat quis
+					provident eos impedit blanditiis exercitationem autem non aliquam, numquam molestias, nesciunt dicta
+					vitae velit soluta est?</p>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea molestias laboriosam non, voluptatibus qui
+					recusandae magnam? Possimus ex nostrum quod vitae? Nisi explicabo deserunt ad voluptate dolorum vitae
+					architecto facere!</p>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus excepturi voluptates veniam esse aut
+					vitae totam repudiandae aspernatur quos, sit iste quasi eligendi rem quis corrupti mollitia. Voluptates,
+					tempora nisi?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint natus officia voluptas dolore doloribus
+					temporibus, expedita unde illo fugiat fugit, numquam similique? Officia esse quibusdam et, praesentium
+					hic eligendi ad.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non placeat possimus molestias provident ducimus
+					quaerat maxime ullam assumenda fugiat? Veniam eius omnis, esse eaque error consequatur dolor obcaecati
+					molestiae maiores?
+				</p>
+				<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque doloremque vel, reprehenderit
+					explicabo dicta deleniti ullam accusamus saepe quae harum, veritatis consequatur! Sequi unde neque
+					obcaecati, voluptas debitis sed quam.</span>
+				<span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, sit blanditiis soluta accusamus
+					adipisci et atque, rem labore, id officia aliquid? Repellendus pariatur eligendi nisi itaque earum cum,
+					laboriosam animi!</span>
+			</div>
+			<h2>:nth-child, :nth-of-type, ::first-line, ::first-letter, ::before, ::after</h2>
+			<div class="block__list">
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus recusandae eveniet molestiae, sed
+					delectus corporis qui quam hic nam nesciunt animi, optio totam rerum fugit consequatur rem aspernatur
+					commodi voluptates! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus dolores ipsam,
+					odit impedit necessitatibus veritatis ex totam, libero culpa doloribus laboriosam delectus, porro commodi
+					vero laborum optio. Recusandae, sit dolorem?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At odit modi magnam aspernatur, hic voluptas
+					amet excepturi nulla laudantium laborum quod est. Libero sapiente ipsam quod eveniet, error molestiae
+					consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta rem eius cum iure odit
+					facere libero quod repellendus totam inventore corrupti earum voluptate necessitatibus, aliquam, eaque
+					asperiores in dolorem blanditiis.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quam, harum qui, esse similique iste
+					quos vitae natus error molestias doloribus. Velit modi vitae quos eligendi quis adipisci. Consequatur,
+					error.</p>
+				<ul class="list">
+					<li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ducimus sapiente hic, dolores culpa
+						incidunt at ex, modi optio quidem dolor assumenda cum. Temporibus mollitia deleniti, modi ipsam
+						corporis
+						fugit.</li>
+					<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam iure laudantium nam aliquam tempora
+						optio
+						accusamus deserunt eius doloribus ipsam! Corrupti officia, tempora fugiat earum optio veniam
+						voluptatibus
+						magnam deserunt.</li>
+					<li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, ratione optio ipsam temporibus
+						voluptate neque. Consequatur id quidem neque iure facilis suscipit autem alias, sequi delectus hic
+						natus
+						possimus excepturi.</li>
+					<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis provident enim alias fugiat deserunt
+						harum ad cupiditate similique repellendus excepturi dolorum nam nulla obcaecati, perferendis repellat
+						totam iure est. Magni?</li>
+
+				</ul>
+			</div>
+	</main>
+	<footer class="footer">
+		<p>the end of Homework-Lesson8</p>
+	</footer>
+</body>
+
+</html>
